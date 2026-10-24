@@ -1,0 +1,25 @@
+{
+  "name": "dsh-mail",
+  "version": "0.1.0",
+  "description": "给 agent 一个自己的电子邮箱：零配置开通收件箱、自己收验证码、可配 SMTP 发信。",
+  "type": "module",
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./package.json": "./package.json"
+  },
+  "peerDependencies": {
+    "@deepseek-ai/dsh-tools": "*"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "keywords": ["dsh-plugin", "dsh-mail", "email", "verification-code", "smtp", "agent"],
+  "license": "MIT",
+  "engines": {
+    "node": ">=22.13.0"
+  }
+}

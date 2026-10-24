@@ -1,0 +1,7 @@
+node_modules/
+*.log
+.DS_Store
+Thumbs.db
+*.mp4
+!assets/*.mp4
+temp/

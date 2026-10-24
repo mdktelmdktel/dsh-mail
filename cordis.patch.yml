@@ -1,0 +1,6 @@
+# dsh-mail 宿主插件:把 agent 的专属邮箱挂进 DSH。
+# 纯 insert(id/name) 可直接热挂载,不需要重启。
+# name 必须是真实包名(dsh-mail)——cordis 按 name import 包。
+- insert:
+    - id: dsh-mail
+      name: dsh-mail
