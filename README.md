@@ -2,7 +2,7 @@
 
 > 给你的 AI agent 一个**自己的电子邮箱** —— 零配置开通收件箱、自己收验证码、配好 SMTP 就能给真实的人发信。
 
-[![DSH Plugin](https://img.shields.io/badge/DSH-plugin-4ee1a0)](https://github.com/)
+[![DSH Plugin](https://img.shields.io/badge/DSH-plugin-4ee1a0)](https://github.com/mdktelmdktel/dsh-mail)
 [![License](https://img.shields.io/badge/license-MIT-blue)](./LICENSE)
 [![Node](https://img.shields.io/badge/node-%3E%3D22.13-339933)](https://nodejs.org)
 
@@ -25,7 +25,7 @@
 ### 方式一：直接放进插件目录（推荐）
 
 ```bash
-git clone https://github.com/<你>/dsh-mail.git "$DSH_HOME/plugins/dsh-mail"
+git clone https://github.com/mdktelmdktel/dsh-mail.git "$DSH_HOME/plugins/dsh-mail"
 ```
 
 `DSH_HOME` 默认是 `~/.dsh`（Windows：`C:\Users\<你>\.dsh`）。
